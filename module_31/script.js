@@ -57,3 +57,8 @@ while (n < 3){
 }
 
 //1. Try to recreate a for loop to be repeated based on the length of an array
+var students = ["John", "Mark", "Ana"]
+
+for (i=0; i<students.length; i++){
+    document.write(students[i] + 'br')
+}
